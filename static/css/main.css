@@ -40,7 +40,6 @@ body{
 .heading_navigation{
     background-color: #000000;
     height: 76px;
-    width: 100vw;
     position: sticky;
     top: 0;
     z-index: 2;
