@@ -1,0 +1,56 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1rem;
+}
+
+.outer-box{
+    width: 100vw;
+    height: 100vh;
+   background: linear-gradient(to right top ,rgba(52, 52, 231, 0.856), rgb(185, 22, 185));
+}
+
+.inner-box{
+    height: 400px;
+    width: fit-content;
+    background-color: white;
+    flex-wrap: wrap;
+    border: 1px solid black;
+    padding: 8px 16px 8px 16px;
+    margin-left: 40%;
+    border-radius: 12px;
+
+}
+
+.header{
+    padding: 3px;
+    margin: 14px;
+}
+
+.username , .password{
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid black;
+    padding: 6px;
+}
+
+.username-label{
+    margin-top: 20px;
+
+}
+
+.login-btn{
+    padding: 8px 70px;
+    margin-top: 18px;
+    width: 185px;
+    border-radius: 50px 50px 50px 50px;
+    background: linear-gradient(to right,rgba(5, 5, 173, 0.932), rgb(185, 22, 185) );
+    color: white;
+    cursor: pointer;
+}
